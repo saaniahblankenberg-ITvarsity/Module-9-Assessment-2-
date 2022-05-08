@@ -1,0 +1,52 @@
+/* latin */
+
+@font-face {
+    font-family: 'Ramabhadra';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/ramabhadra/v15/EYq2maBOwqRW9P1SQ83LShRMXg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    color: whitesmoke;
+    font-family: "Ramabhadra", sans-serif;
+}
+
+#local {
+    width: 100%;
+    background-color: rgb(4, 20, 253);
+    padding: 15px 0;
+    margin: 0;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#cities {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#cities td {
+    border: 1px solid rgb(25, 0, 255);
+    padding: 8px;
+}
+
+#cities tr:nth-child(even) {
+    background-color: rgba(15, 34, 50, 0.548);
+}
+
+#cities tr:nth-child(odd) {
+    background-color: rgba(201, 196, 196, 0.767);
+}
+
+.col1 {
+    width: 10%;
+}
+
+.col2 {
+    width: 45%;
+}
